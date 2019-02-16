@@ -159,7 +159,7 @@ document.onkeydown = function(event) {
          if(event.keyCode >= 65 && event.keyCode <= 90) { 
              keySound.play(); 
              makeGuess(event.key.toUpperCase()); 
-             refreshScreen(); 
+             resetGame(); 
              checkWin(); 
 			 checkLoss(); 
          } 
